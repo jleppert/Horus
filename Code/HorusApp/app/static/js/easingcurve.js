@@ -306,10 +306,10 @@ _.extend(EasingCurve.prototype, Backbone.Events, {
             p5.stroke(255,255,255);
             p5.strokeWeight(0);
             p5.textFont(c_font);
-            p5.textSize(16);
-            p5.textAlign(p5.CENTER);
-            p5.text(state.title, DISPLAY.w/2, 20);
-            p5.textSize(12);
+            //p5.textSize(16);
+            //p5.textAlign(p5.CENTER);
+            //p5.text(state.title, DISPLAY.w/2, 20);
+            //p5.textSize(12);
 
             p5.translate(DISPLAY.border, DISPLAY.border);
 
